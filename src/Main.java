@@ -8,8 +8,8 @@ public class Main {
         frame.setContentPane(new OperacionesMatematicas().panelPrincipal);
         // Configuración estándar
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();                      // Ajusta el tamaño automático según el formulario
-        frame.setLocationRelativeTo(null); // Centra la ventana en la pantalla
-        frame.setVisible(true);            // Muestra la ventana
+        frame.pack();                      
+        frame.setLocationRelativeTo(null); 
+        frame.setVisible(true);            
     }
 }
