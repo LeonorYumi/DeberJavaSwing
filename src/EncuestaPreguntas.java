@@ -38,7 +38,7 @@ public class EncuestaPreguntas {
         String p2 = obtenerRespuesta(siRadioButton1, aVecesRadioButton, noRadioButton);
         String p3 = obtenerRespuesta(siRadioButton2, aVecesRadioButton1, noRadioButton2);
 
-        String mensaje = "📋 RESULTADOS DE LA ENCUESTA\n\n"
+        String mensaje = "RESULTADOS DE LA ENCUESTA\n\n"
                 + "1. ¿Quieres seguir una maestría?: " + p1 + "\n"
                 + "2. ¿Te gusta estudiar programación?: " + p2 + "\n"
                 + "3. ¿Recomendarías tu carrera?: " + p3;
